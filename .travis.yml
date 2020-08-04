@@ -1,0 +1,13 @@
+language: java
+jdk:
+- openjdk14
+- oraclejdk14
+
+addons:
+ sonarcloud:
+  organization: johnscodes
+  token: ca207b585e85746f5625eb306ba414e1baff3b53
+
+script: 
+ - ant build
+ - sonar-scanner
