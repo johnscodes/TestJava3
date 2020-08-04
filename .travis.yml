@@ -1,7 +1,6 @@
 language: java
 jdk:
-- openjdk14
-- oraclejdk14
+- openjdk8
 
 addons:
  sonarcloud:
