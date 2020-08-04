@@ -5,7 +5,8 @@ jdk:
 addons:
  sonarcloud:
   organization: johnscodes
-  token: 625418aa73e8fb874f54f4bef166842445ef459f
+  token: 
+   secure: 625418aa73e8fb874f54f4bef166842445ef459f
 
 script: 
  - ant build
